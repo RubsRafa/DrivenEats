@@ -1,0 +1,115 @@
+body {
+    background-color: #e5e5e5;
+    margin-top: 123px;
+    margin-bottom: 108px;
+  }
+  .logo {
+    height: 92px;
+    width: 100%;
+    background-color: #cf2b2b;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: black;
+  }
+  .maior {
+    font-size: 44px;
+    font-family: Righteous;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 21px;
+  }
+  .menor {
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 21px;
+  }
+  .escolha {
+    font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 19px;
+    width: 100%;
+  }
+  .resto {
+    margin-top: 27px;
+  }
+  .opcoes {
+    margin-top: 17px;
+    width: 1000px;
+    height: 216px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .opcao {
+    width: 172px;
+    height: 216px;
+    background-color: #ffffff;
+    margin-left: 19px;
+    border-radius: 9px;
+  }
+  .imagem {
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+  }
+  .nome {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 10px;
+    margin-left: 14px;
+  }
+  .descricao {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #a6a6a6;
+    margin-top: 10px;
+    margin-left: 14px;
+  }
+  .valor {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 14px;
+  }
+  .barrabaixo {
+    background-color: #ffffff;
+    height: 92px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .botao {
+    margin: 15px auto;
+    background-color: #cbcbcb;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+  }
+  .texto {
+    height: 50px;
+    width: 190px;
+    margin: 5px auto;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
