@@ -2,6 +2,7 @@ body {
     background-color: #e5e5e5;
     margin-top: 123px;
     margin-bottom: 108px;
+    position: relative; 
   }
   .logo {
     height: 92px;
@@ -127,6 +128,17 @@ body {
     border-radius: 50px;
     position: relative;
   }
+  .fechar {
+    margin: 15px auto;
+    background-color: #32B72F;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    position: relative;
+  }
+  .escondido {
+    display: none;
+  }
   .botaofinal {
     margin: 15px auto;
     background-color: #32B72F;
@@ -160,4 +172,88 @@ body {
     position: absolute;
     top: 9px;
     left: 90px;
+ }
+ .fundofinalizar {
+  width: 414px;
+  height: 1026px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute; 
+ }
+ .finalizar-pedido {
+  background-color: #50D074;
+  width: 377px;
+  height: 353px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0, 0.25);
+  position:fixed; 
+  top: 270px;
+  left: 40px; 
+ }
+ .confirmar {
+  width: 376px;
+  height: 27px;
+  margin-top: 21px;
+  justify-content: center;
+  font-weight: 700;
+  font-family: Roboto;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+ }
+ .pedidoPrato {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 22px;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 28px;
+  text-align: center;
+ }
+ .pedidoBebida {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 22px;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 13px;
+  text-align: center;
+ }
+ .pedidoSobremesa {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 22px;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 13px;
+  text-align: center;
+ }
+ .total {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff; 
+  margin-top: 15px;
+  text-align: center;
+ }
+ .finalizarReal {
+  width: 333px;
+  height: 52px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  margin: 24px auto;
+ }
+ .centro {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+  color: #50D074; 
+ }
+ .cancelar {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
  }
