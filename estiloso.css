@@ -12,7 +12,7 @@ body {
     left: 0;
     top: 0;
     box-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
-    z-index: 1;
+    z-index: 2;
   }
   .maior {
     font-size: 44px;
@@ -62,6 +62,7 @@ body {
     border: 5px solid #ffffff;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px -4px rgba(0,0,0, 0.25);
+    z-index: 1;
   }
   .borda {
     border: 6px solid #32B72F;
@@ -75,8 +76,8 @@ body {
     border-radius: 50%;
     position: absolute; 
     color: #32B72F;
-    bottom: 5px; 
-    right: 5px;
+    bottom: 10px; 
+    right: 10px;
   }
   .imagem {
     margin-top: 18px;
@@ -126,7 +127,7 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
   }
   .botao {
     margin: 15px auto;
@@ -182,7 +183,7 @@ body {
     left: 90px;
  }
  .fundofinalizar {
-  width: 500px;
+  width: 100%;
   height: 1026px;
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
@@ -197,14 +198,13 @@ body {
   border-radius: 9px;
   box-shadow: 0px 0px 10px 1px rgba(0,0,0, 0.25);
   justify-content: space-around;
-  position:fixed; 
-  top: 270px;
-  left: 40px; 
+  margin: 220px auto; 
+  padding: 3px;
  }
  .confirmar {
   width: 376px;
   height: 27px;
-  margin-top: 21px;
+  margin-top: 30px;
   justify-content: center;
   font-weight: 700;
   font-family: Roboto;
